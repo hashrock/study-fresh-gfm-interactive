@@ -1,4 +1,4 @@
-import { MyMarkdown } from "../components/MyMarkdown.tsx";
+import MyMarkdown from "../islands/MyMarkdown.tsx";
 
 export default function Home() {
   const example = `
@@ -10,6 +10,10 @@ export default function Home() {
 
   \`\`\`ts
   console.log("Hello, world!");
+  \`\`\`
+
+  \`\`\`ts
+  console.log("Hello, world2!");
   \`\`\`
 `;
 

@@ -28,7 +28,7 @@
     "twind": "https://esm.sh/twind@0.16.19",
     "twind/": "https://esm.sh/twind@0.16.19/",
     "$std/": "https://deno.land/std@0.193.0/",
-    "preact-markdown": "https://esm.sh/react-markdown@7.1.2?alias=react:preact/compat"
+    "preact-markdown": "https://esm.sh/react-markdown@7.1.2?alias=react:preact/compat,@types/react:preact/compat"
   },
   "compilerOptions": {
     "jsx": "react-jsx",

@@ -1,16 +1,4 @@
-# Fresh project
+<img width="1312" alt="image" src="https://github.com/hashrock/study-fresh-gfm-interactive/assets/3132889/01de68b9-cd30-4c81-af5a-43dd52ee2f21">
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
 
-### Usage
-
-Make sure to install Deno: https://deno.land/manual/getting_started/installation
-
-Then start the project:
-
-```
-deno task start
-```
-
-This will watch the project directory and restart as necessary.
+https://zenn.dev/hashrock/scraps/ea425d67b7bdaf

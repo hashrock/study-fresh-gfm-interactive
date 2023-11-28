@@ -8,16 +8,16 @@ interface MyMarkdownProps extends JSX.HTMLAttributes<HTMLDivElement> {
 }
 
 function reactNodeToString(node: ReactNode): string {
-  if (typeof node === 'string') {
+  if (typeof node === "string") {
     return node;
   } else if (Array.isArray(node)) {
-    return node.map(reactNodeToString).join('');
+    return node.map(reactNodeToString).join("");
   } else if (node === null) {
-    return '';
-  } else if (typeof node === 'object' && 'props' in node && node.props) {
+    return "";
+  } else if (typeof node === "object" && "props" in node && node.props) {
     return reactNodeToString(node.props.children);
   } else {
-    return ""
+    return "";
   }
 }
 
@@ -28,7 +28,7 @@ export default function MyMarkdown(props: MyMarkdownProps) {
     <div class="markdown-body" {...props}>
       <link
         rel="stylesheet"
-        href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css"
+        href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css"
       />
       <PreactMarkdown
         rehypePlugins={[rehypeHighlight]}

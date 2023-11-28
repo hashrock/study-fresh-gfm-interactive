@@ -9,7 +9,11 @@ export default function Home() {
   - c
 
   \`\`\`ts
-  console.log("Hello, world!");
+  export class Hello {
+    hello() {
+      console.log("Hello, world!");
+    }
+  }
   \`\`\`
 
   \`\`\`ts
